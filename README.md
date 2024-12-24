@@ -32,6 +32,12 @@ Match three or more candies in a row or column to score.
 
 Keep playing to beat your high score!
 
+📋 Installation
+Clone the repository:
+Copy code
 
+git clone https://github.com/your-username/candy-crush-clone.git
+
+Open the index.html file in your favorite browser.
 
 
