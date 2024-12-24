@@ -1,0 +1,65 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  height: 560px;
+  width: 560px;
+  background-color: rgba(109, 127, 151, 0.9);
+  padding: 5px;
+  color: #85796b;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.grid div {
+  height: 70px;
+  width: 70px;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  margin-top: -5px;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  margin-top: -10px;
+  font-size: 40px;
+}
+
+.invisible {
+  background-color: white;
+}
+
+body {
+  background-image: url('image1.jpg');
+  max-width: 100vh;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  height: 100vh;
+  overflow: hidden;
+}
+.scoreBoard {
+  background-color: rgb(245, 89, 89);
+  border-radius: 20px;
+  width: 15%;
+  height: 80px;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
