@@ -36,8 +36,10 @@ Keep playing to beat your high score!
 Clone the repository:
 Copy code
 
-git clone https://github.com/your-username/candy-crush-clone.git
+https://github.com/E-beep-web/candy-crush-.git
 
 Open the index.html file in your favorite browser.
 
+📜 License
 
+This project is licensed under the MIT License. See the LICENSE file for details.
